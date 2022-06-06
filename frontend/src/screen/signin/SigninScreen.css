@@ -1,0 +1,22 @@
+.small-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 40%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(211, 194, 194);
+}
+
+
+@media only screen and (max-width: 380px) {
+  .wrapper {
+    width: 75%;
+  }
+}
